@@ -56,10 +56,29 @@ nav a {
   margin: 0 20px;
   text-decoration: none;
   font-weight: 600;
+  position: relative;
+  padding-bottom: 6px;
 }
+
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background: var(--accent-color);
+  transition: width 0.25s ease;
+}
+
 nav a:hover {
-  color: var(--accent-color);
+  color: #ffffff;
 }
+
+nav a:hover::after {
+  width: 100%;
+}
+
 
 
 /* Sections */
@@ -296,6 +315,7 @@ section .container:hover {
   transform: translateY(-4px) scale(1.03);
   box-shadow: 0 16px 34px rgba(0,0,0,0.22);
 }
+
 
 
 
