@@ -55,12 +55,16 @@ nav a {
   text-decoration: none;
   font-weight: 600;
 }
+nav a:hover {
+  color: var(--accent-color);
+}
+
 
 /* Sections */
 section {
-  padding: 30px;
-  margin: 20px;
-  border-radius: 6px;
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: 40px auto;
 }
 
 /* Footer */
@@ -108,3 +112,4 @@ footer {
   border: 0;
   border-radius: 6px;
 }
+
