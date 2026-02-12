@@ -121,6 +121,14 @@ footer {
   border: 0;
   border-radius: 6px;
 }
+header,
+section,
+div,
+main,
+footer {
+  background-color: #ffffff !important;
+}
+
 
 
 
