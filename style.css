@@ -208,6 +208,24 @@ footer {
   font-weight: 500;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+
+  .stats-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+}
+
+
 
 
 
