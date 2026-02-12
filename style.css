@@ -268,9 +268,11 @@ footer {
 /* Automatic Alternating Sections */
 /* ============================= */
 
-section:nth-of-type(even) {
+/* Alternate background for sections (but NOT hero/stats) */
+section:nth-child(even):not(.hero):not(.stats) {
   background: #f9fafb;
 }
+
 
 section:nth-of-type(odd) {
   background: #ffffff;
@@ -385,6 +387,7 @@ section .container:hover {
   font-size: 0.95rem;
   line-height: 1.5;
 }
+
 
 
 
