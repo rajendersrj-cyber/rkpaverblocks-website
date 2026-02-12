@@ -264,8 +264,16 @@ footer {
 
 }
 
-.light-section {
+/* ============================= */
+/* Automatic Alternating Sections */
+/* ============================= */
+
+section:nth-of-type(even) {
   background: #f9fafb;
+}
+
+section:nth-of-type(odd) {
+  background: #ffffff;
 }
 
 /* ===== Section Base Styling ===== */
@@ -374,6 +382,7 @@ section .container:hover {
   font-size: 0.95rem;
   line-height: 1.5;
 }
+
 
 
 
