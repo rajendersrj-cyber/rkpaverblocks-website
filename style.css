@@ -322,6 +322,45 @@ section .container:hover {
   box-shadow: 0 16px 34px rgba(0,0,0,0.22);
 }
 
+/* ============================= */
+/* Footer Upgrade                */
+/* ============================= */
+.site-footer {
+  background: var(--dark-bg);
+  color: #ffffff;
+  padding: 35px 20px;
+  margin-top: 60px;
+}
+
+.site-footer a {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(255,255,255,0.4);
+}
+
+.site-footer a:hover {
+  color: var(--accent-color);
+  border-bottom-color: var(--accent-color);
+}
+
+.footer-title {
+  font-weight: 800;
+  font-size: 1.1rem;
+  margin: 0 0 10px 0;
+}
+
+.footer-contact {
+  margin: 0 0 10px 0;
+  opacity: 0.95;
+}
+
+.footer-areas {
+  margin: 0;
+  opacity: 0.75;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
 
 
 
