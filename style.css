@@ -116,12 +116,18 @@ footer {
   transform: translateY(-8px) scale(1.02);
   box-shadow: 0 12px 28px rgba(0,0,0,0.15);
 }
+.product:hover img {
+  transform: scale(1.06);
+}
+
 
 .product img {
   width: 100%;
   height: 250px;
   object-fit: cover;
+  transition: transform 0.35s ease;
 }
+
 
 .product p {
   text-align: center;
@@ -315,6 +321,7 @@ section .container:hover {
   transform: translateY(-4px) scale(1.03);
   box-shadow: 0 16px 34px rgba(0,0,0,0.22);
 }
+
 
 
 
