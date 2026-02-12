@@ -181,6 +181,33 @@ footer {
   background-color: #d45f0c;
 }
 
+/* Stats Section */
+.stats {
+  background: var(--primary-color);
+  padding: 60px 20px;
+  color: #ffffff;
+}
+
+.stats-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  text-align: center;
+}
+
+.stat-box h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.stat-box p {
+  margin: 0;
+  font-weight: 500;
+}
+
 
 
 
