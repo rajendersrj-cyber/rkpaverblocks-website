@@ -248,6 +248,17 @@ section {
   max-width: 1100px;
   margin: 0 auto;
 }
+/* ============================= */
+/* PREMIUM SECTION CARD LOOK     */
+/* ============================= */
+
+section .container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
 
 
 
