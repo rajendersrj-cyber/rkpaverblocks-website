@@ -257,7 +257,15 @@ section .container {
   padding: 40px;
   border-radius: 10px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  transition: all 0.3s ease;
 }
+
+section .container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.10);
+}
+
+
 
 
 
