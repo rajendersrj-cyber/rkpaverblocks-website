@@ -297,17 +297,20 @@ section {
 /* ============================= */
 
 section .container {
-  background: #ffffff;
-  padding: 40px;
-  border-radius: 10px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
-  transition: all 0.3s ease;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(6px);
+  padding: 42px;
+  border-radius: 14px;
+  border: 1px solid rgba(0,0,0,0.04);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 section .container:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.10);
+  transform: translateY(-4px);
+  box-shadow: 0 14px 34px rgba(0,0,0,0.10);
 }
+
 
 /* ============================= */
 /* WhatsApp Floating Button      */
@@ -382,6 +385,7 @@ section .container:hover {
   font-size: 0.95rem;
   line-height: 1.5;
 }
+
 
 
 
