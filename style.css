@@ -524,6 +524,20 @@ ul li:hover {
   }
 }
 
+/* Navbar Call Button */
+.nav-call {
+  background: var(--accent-color);
+  color: #ffffff !important;
+  padding: 8px 16px;
+  border-radius: 999px;
+  margin-left: 15px;
+  font-weight: 800;
+}
+
+.nav-call:hover {
+  background: #d45f0c;
+}
+
 
 
 
