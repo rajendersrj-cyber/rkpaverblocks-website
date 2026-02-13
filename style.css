@@ -538,6 +538,23 @@ ul li:hover {
   background: #d45f0c;
 }
 
+/* Mobile Navbar Fix */
+@media (max-width: 600px) {
+  nav {
+    padding: 14px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 8px 10px;
+  }
+
+  .nav-call {
+    display: inline-block;
+    margin-top: 10px;
+  }
+}
+
 
 
 
