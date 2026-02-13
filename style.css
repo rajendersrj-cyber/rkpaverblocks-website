@@ -39,10 +39,34 @@ h2 {
 
 /* Header */
 header {
-  background-color: var(--light-blue);
-  padding: 40px 20px;
+  background: #ffffff;
+  padding: 46px 20px 32px;
   text-align: center;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
 }
+
+header h1 {
+  margin: 0;
+  font-weight: 800;
+}
+
+header p {
+  margin: 10px 0 0;
+  color: #475569;
+  font-weight: 600;
+}
+
+/* Small brand accent under company name */
+header h1::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 4px;
+  margin: 14px auto 0;
+  background: var(--accent-color);
+  border-radius: 999px;
+}
+
 
 header h1 {
   margin: 0;
@@ -474,6 +498,7 @@ ul li:hover {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
