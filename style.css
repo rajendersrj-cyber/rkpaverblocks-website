@@ -89,9 +89,8 @@ nav a:hover::after {
 /* Sections */
 section {
   padding: 60px 20px;
-  max-width: 1100px;
-  margin: 0 auto;
 }
+
 
 
 /* Footer */
@@ -293,7 +292,9 @@ section {
 .container {
   max-width: 1100px;
   margin: 0 auto;
+  padding: 0 16px; /* ✅ mobile side padding */
 }
+
 /* ============================= */
 /* PREMIUM SECTION CARD LOOK     */
 /* ============================= */
@@ -386,6 +387,13 @@ section .container:hover {
   opacity: 0.75;
   font-size: 0.95rem;
   line-height: 1.5;
+}
+
+/* Premium heading accent */
+section h2 {
+  display: inline-block;
+  padding-bottom: 8px;
+  border-bottom: 3px solid rgba(249,115,22,0.35); /* accent underline */
 }
 
 
