@@ -396,6 +396,34 @@ section h2 {
   border-bottom: 3px solid rgba(249,115,22,0.35); /* accent underline */
 }
 
+/* ============================= */
+/* Premium List Upgrade          */
+/* ============================= */
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 25px 0;
+}
+
+ul li {
+  background: #ffffff;
+  margin-bottom: 15px;
+  padding: 16px 18px;
+  border-radius: 10px;
+  border-left: 5px solid var(--accent-color);
+
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+  font-weight: 600;
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+ul li:hover {
+  transform: translateX(6px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.10);
+}
+
 
 
 
