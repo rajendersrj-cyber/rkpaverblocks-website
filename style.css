@@ -9,7 +9,9 @@
 /* Base */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 70px; /* ✅ prevents sticky nav overlap */
 }
+
 
 
 body {
@@ -82,6 +84,8 @@ nav {
   position: sticky;
   top: 0;
   z-index: 999;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.18);
+
 }
 
 
@@ -519,6 +523,7 @@ ul li:hover {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
