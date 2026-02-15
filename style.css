@@ -470,7 +470,17 @@ ul li:hover {
 .preview-card {
   background: #ffffff;
   border-radius: 14px;
-  padding: 18px;
+  overflow: hidden;          /* ✅ image stays inside card */
+  text-decoration: none;
+  color: var(--text-dark);
+
+  box-shadow: 0 10px 22px rgba(0,0,0,0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+  display: flex;             /* ✅ equal height cards */
+  flex-direction: column;
+}
+
   text-decoration: none;
   color: var(--text-dark);
 
@@ -616,11 +626,26 @@ ul li:hover {
 
 .preview-card img {
   width: 100%;
-  height: 140px;
-  object-fit: cover;
+  height: 160px;          /* ✅ fixed clean height */
+  object-fit: cover;      /* ✅ no stretching */
   border-radius: 12px;
-  margin-bottom: 12px;
+  display: block;
 }
+
+.preview-card h3,
+.preview-card p {
+  padding: 0 18px;
+}
+
+.preview-card h3 {
+  margin-top: 15px;
+}
+
+.preview-card p {
+  margin-bottom: 18px;
+  opacity: 0.85;
+}
+
 
 
 
