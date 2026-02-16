@@ -626,9 +626,10 @@ ul li:hover {
 
 .preview-card img {
   width: 100%;
-  height: 160px;          /* ✅ fixed clean height */
+  height: 180px;          /* ✅ fixed clean height */
   object-fit: cover;      /* ✅ no stretching */
   border-radius: 12px;
+  margin-bottom: 12px;
   display: block;
 }
 
@@ -702,6 +703,7 @@ ul li:hover {
     height: 220px;
   }
 }
+
 
 
 
