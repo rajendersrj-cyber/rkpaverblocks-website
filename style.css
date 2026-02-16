@@ -966,7 +966,32 @@ body {
   }
 }
 
+/* ✅ FIX: Stats text visibility */
 
+.stats h2,
+.stats p {
+  color: #ffffff !important;
+}
+
+.stats p {
+  opacity: 0.9;
+  font-weight: 600;
+}
+
+/* ✅ FIX: Footer text visibility */
+
+.site-footer p,
+.site-footer a {
+  color: #ffffff !important;
+}
+
+.site-footer p {
+  opacity: 0.92;
+}
+
+.site-footer a:hover {
+  color: var(--accent-color) !important;
+}
 
 
 
