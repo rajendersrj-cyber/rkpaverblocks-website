@@ -1048,7 +1048,28 @@ section ul { margin: 12px 0 !important; }
   }
 }
 
+/* ============================= */
+/* Capabilities Section: 2 per row */
+/* ============================= */
 
+.capabilities-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+/* Keep 2 per row even on phones */
+@media (max-width: 600px) {
+  .capabilities-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.capabilities-list li {
+  margin: 0;
+  padding: 14px 16px;
+  font-size: 0.95rem;
+}
 
 
 
