@@ -1005,6 +1005,31 @@ section h2 { margin-bottom: 10px; }
 section p  { margin: 10px 0; }
 section ul { margin: 12px 0; }
 
+/* ============================= */
+/* SAFE COMPACT OVERRIDES (END)  */
+/* ============================= */
+
+/* Reduce vertical gaps between sections */
+section {
+  padding: 26px 20px !important;
+}
+
+/* Reduce card padding inside sections */
+section .container {
+  padding: 26px !important;
+}
+
+/* Reduce extra space inside text */
+section h2 { margin: 0 0 10px 0 !important; }
+section p  { margin: 10px 0 !important; }
+section ul { margin: 12px 0 !important; }
+
+/* Mobile tighter */
+@media (max-width: 768px) {
+  section { padding: 20px 16px !important; }
+  section .container { padding: 18px !important; }
+}
+
 
 
 
