@@ -1071,6 +1071,20 @@ section ul { margin: 12px 0 !important; }
   font-size: 0.95rem;
 }
 
+.hero {
+  background: linear-gradient(to bottom, #ffffff, #f4f8ff);
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("Images/pattern.png");
+  opacity: 0.05;
+  pointer-events: none;
+}
+
 
 
 
