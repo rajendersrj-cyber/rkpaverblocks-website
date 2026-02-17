@@ -335,7 +335,8 @@ section {
 section .container {
   background: rgba(255,255,255,0.92);
   backdrop-filter: blur(6px);
-  padding: 42px;
+ padding: 28px;        /* was 42px -> compact */
+
   border-radius: 14px;
   border: 1px solid rgba(0,0,0,0.04);
   box-shadow: 0 10px 26px rgba(0,0,0,0.06);
@@ -993,6 +994,7 @@ body {
 .site-footer a:hover {
   color: var(--accent-color) !important;
 }
+
 
 
 
