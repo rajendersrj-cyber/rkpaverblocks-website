@@ -1000,6 +1000,11 @@ section h2 { margin-bottom: 10px; }
 section p  { margin: 10px 0; }
 section ul { margin: 14px 0; }
 
+/* Compact text spacing inside sections */
+section h2 { margin-bottom: 10px; }
+section p  { margin: 10px 0; }
+section ul { margin: 12px 0; }
+
 
 
 
