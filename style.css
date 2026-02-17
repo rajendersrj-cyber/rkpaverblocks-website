@@ -1041,11 +1041,14 @@ section ul { margin: 12px 0 !important; }
 }
 
 /* Mobile: back to 1 per row */
-@media (max-width: 700px) {
+/* Keep 2 per row on most phones */
+@media (max-width: 450px) {
   .clients-list {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* only very small screens */
   }
 }
+
+
 
 
 
