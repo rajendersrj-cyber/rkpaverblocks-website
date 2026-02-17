@@ -1030,6 +1030,23 @@ section ul { margin: 12px 0 !important; }
   section .container { padding: 18px !important; }
 }
 
+/* ============================= */
+/* Clients Section → 2 Per Row   */
+/* ============================= */
+
+.clients-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+/* Mobile: back to 1 per row */
+@media (max-width: 700px) {
+  .clients-list {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 
 
