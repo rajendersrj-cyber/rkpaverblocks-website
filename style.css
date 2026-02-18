@@ -1112,6 +1112,33 @@ section ul { margin: 12px 0 !important; }
   }
 }
 
+/* ============================= */
+/* Serving Areas Chips           */
+/* ============================= */
+
+.service-areas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.service-areas span {
+  background: #ffffff;
+  border: 1px solid rgba(30,58,138,0.18);
+  color: var(--primary-color);
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-areas span:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.10);
+}
+
 
 
 
