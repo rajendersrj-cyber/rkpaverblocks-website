@@ -1339,6 +1339,15 @@ nav {
   }
 }
 
+/* Active page highlight (Navbar) */
+nav a.active {
+  color: #ffffff;
+}
+
+nav a.active::after {
+  width: 100%;
+}
+
 
 
 
