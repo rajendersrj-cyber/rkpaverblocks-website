@@ -97,6 +97,16 @@ nav a {
   position: relative;
   padding-bottom: 6px;
 }
+/* ✅ Active Page Highlight */
+nav a.active {
+  color: var(--accent-color);
+}
+
+nav a.active::after {
+  width: 100%;
+}
+
+
 
 nav a::after {
   content: "";
@@ -1161,6 +1171,7 @@ section ul { margin: 12px 0 !important; }
   transform: translateY(-2px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.10);
 }
+
 
 
 
