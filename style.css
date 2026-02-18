@@ -226,11 +226,34 @@ footer {
   letter-spacing: 0.3px;
   display: inline-block;
   transition: all 0.3s ease;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.14);
+  position: relative;
+  overflow: hidden;
+
+  
 }
 
 
 .btn:hover {
-  transform: scale(1.05);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 16px 34px rgba(0,0,0,0.18);
+}
+
+/* ✅ PASTE SHINE EFFECT EXACTLY HERE */
+.btn::after {
+  content: "";
+  position: absolute;
+  top: -30%;
+  left: -40%;
+  width: 60%;
+  height: 160%;
+  background: rgba(255,255,255,0.25);
+  transform: rotate(25deg);
+  transition: left 0.5s ease;
+}
+
+.btn:hover::after {
+  left: 120%;
 }
 
 
@@ -1138,6 +1161,7 @@ section ul { margin: 12px 0 !important; }
   transform: translateY(-2px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.10);
 }
+
 
 
 
