@@ -1348,6 +1348,15 @@ nav a.active::after {
   width: 100%;
 }
 
+/* Page image block (used on boundary wall page) */
+.page-image img {
+  width: 100%;
+  max-width: 950px;
+  display: block;
+  margin: 20px auto 0;
+  border-radius: 14px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.10);
+}
 
 
 
