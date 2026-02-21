@@ -1370,6 +1370,13 @@ nav a.active::after {
   border-radius: 8px;
 }
 
+#faq p {
+  color: #333;
+}
+
+#faq h3 {
+  color: #1f3c88;
+}
 
 
 
