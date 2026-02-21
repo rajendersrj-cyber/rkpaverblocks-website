@@ -1366,7 +1366,7 @@ nav a.active::after {
 }
 
 .product-images img {
-  width: 48%;
+  width: 49%;
   border-radius: 8px;
 }
 
@@ -1377,6 +1377,7 @@ nav a.active::after {
 #faq h3 {
   color: #1f3c88;
 }
+
 
 
 
