@@ -1388,6 +1388,20 @@ nav a.active::after {
   color: #1f3c88;
 }
 
+.product-images img{
+  width: calc(50% - 16px) !important;
+  max-width: 420px !important;
+  height: auto !important;
+  display: block;
+  border-radius: 10px;
+}
+@media (max-width: 700px){
+  .product-images img{
+    width: 100% !important;
+    max-width: 520px !important;
+  }
+}
+
 
 
 
