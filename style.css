@@ -1433,6 +1433,37 @@ nav a.active::after {
   }
 }
 
+/* ===== Drain Covers Page: 3 images in one row ===== */
+.product-images.three-row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.product-images.three-row img{
+  width: calc(33.333% - 18px);
+  max-width: 360px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: block;
+}
+
+.product-images.three-row img:hover{
+  transform: scale(1.04);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.22);
+}
+
+/* Mobile: stack */
+@media (max-width: 900px){
+  .product-images.three-row img{
+    width: 100%;
+    max-width: 520px;
+  }
+}
 
 
 
