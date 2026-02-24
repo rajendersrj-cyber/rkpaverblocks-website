@@ -1477,8 +1477,8 @@ nav a.active::after {
 
      .coverblocks-row img{
   width: calc(33.333% - 20px);
-  max-width: 240px;   /* reduced size */
-  height: 180px;      /* fixed compact height */
+  max-width: 210px;   /* reduced size */
+  height: 160px;      /* fixed compact height */
   object-fit: cover;  /* keeps image proportional */
   border-radius: 14px;  /* orange border */
   border: 2px solid #f28c28;
@@ -1499,6 +1499,7 @@ nav a.active::after {
     max-width: 500px;
   }
 }
+
 
 
 
