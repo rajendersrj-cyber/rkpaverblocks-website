@@ -1470,15 +1470,15 @@ nav a.active::after {
 .coverblocks-row{
   display: flex;
   flex-wrap: wrap;
-  gap: 14px;
+  gap: 10px;
   justify-content: center;
   margin-top: 25px;
 }
 
      .coverblocks-row img{
   width: calc(33.333% - 20px);
-  max-width: 210px;   /* reduced size */
-  height: 160px;      /* fixed compact height */
+  max-width: 180px;   /* reduced size */
+  height: 115px;      /* fixed compact height */
   object-fit: cover;  /* keeps image proportional */
   border-radius: 14px;  /* orange border */
   border: 2px solid #f28c28;
@@ -1499,6 +1499,7 @@ nav a.active::after {
     max-width: 500px;
   }
 }
+
 
 
 
