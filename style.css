@@ -1465,6 +1465,38 @@ nav a.active::after {
   }
 }
 
+/* ===== Cover Blocks 3x2 Grid ===== */
+
+.coverblocks-row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.coverblocks-row img{
+  width: calc(33.333% - 20px);
+  max-width: 320px;
+  border-radius: 18px;
+  border: 3px solid #f28c28;   /* orange border */
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: block;
+}
+
+.coverblocks-row img:hover{
+  transform: scale(1.05);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.25);
+}
+
+/* Mobile responsive */
+@media (max-width: 900px){
+  .coverblocks-row img{
+    width: 100%;
+    max-width: 500px;
+  }
+}
 
 
 
