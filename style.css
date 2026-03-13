@@ -79,7 +79,7 @@ header h1 {
   font-weight: 700;
 }
 
-/* Navigation */
+/* igation */
 nav {
   background: var(--dark-bg);
   padding: 12px;
@@ -1726,6 +1726,15 @@ transform:scale(1.05);
 box-shadow:0 10px 25px rgba(0,0,0,0.2);
 }
 
+/* FORCE sticky navbar fix */
+nav{
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 9999 !important;
+  width: 100% !important;
+  background: var(--dark-bg) !important;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.18) !important;
+}
 
 
 
