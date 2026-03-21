@@ -1804,7 +1804,28 @@ nav{
   }
 }
 
+/* ============================= */
+/* NAV POLISH                    */
+/* ============================= */
 
+nav a {
+  border-radius: 999px;
+  transition: all 0.25s ease;
+}
+
+nav a:not(.nav-call) {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 8px 14px;
+}
+
+nav a:not(.nav-call):hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.nav-call {
+  border-radius: 999px;
+  font-weight: 700;
+}
 
 
 
