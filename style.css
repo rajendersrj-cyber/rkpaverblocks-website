@@ -54,7 +54,7 @@ h2 {
 /* Header */
 header {
   background: #ffffff;
-  padding: 46px 20px 32px;
+  padding: 24px 20px 14px;
   text-align: center;
   border-bottom: 1px solid rgba(0,0,0,0.06);
 }
@@ -65,7 +65,7 @@ header h1 {
 }
 
 header p {
-  margin: 10px 0 0;
+  margin: 8px 0 0;
   color: #475569;
   font-weight: 600;
 }
@@ -76,7 +76,7 @@ header h1::after {
   display: block;
   width: 90px;
   height: 4px;
-  margin: 14px auto 0;
+  margin: 10px auto 0;
   background: var(--accent-color);
   border-radius: 999px;
 }
