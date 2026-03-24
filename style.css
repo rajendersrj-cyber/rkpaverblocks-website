@@ -1869,7 +1869,69 @@ nav a:not(.nav-call):hover {
   }
 }
 
+/* ============================= */
+/* PRODUCT TOP BANNER FIX        */
+/* ============================= */
 
+.product-top-banner {
+  max-width: 1150px;
+  margin: 30px auto 20px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.product-top-banner img {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  display: block;
+  margin: 0 auto 22px;
+  border-radius: 16px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+
+.product-top-banner-text {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.product-top-banner-text h2 {
+  font-size: 2.7rem;
+  line-height: 1.2;
+  margin-bottom: 14px;
+  color: var(--primary-color);
+}
+
+.product-top-banner-text p {
+  font-size: 1.1rem;
+  color: #475569;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .product-top-banner {
+    margin: 20px auto 10px;
+    padding: 0 14px;
+  }
+
+  .product-top-banner img {
+    max-width: 100%;
+    margin-bottom: 16px;
+    border-radius: 12px;
+  }
+
+  .product-top-banner-text h2 {
+    font-size: 1.8rem;
+    line-height: 1.25;
+  }
+
+  .product-top-banner-text p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+}
 
 
 
