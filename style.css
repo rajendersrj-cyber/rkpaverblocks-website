@@ -1933,7 +1933,17 @@ nav a:not(.nav-call):hover {
   }
 }
 
+/* ============================= */
+/* IMAGE CAPTION STYLE           */
+/* ============================= */
 
+.image-caption {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #64748b;
+  margin-top: 10px;
+  font-style: italic;
+}
 
 
 
