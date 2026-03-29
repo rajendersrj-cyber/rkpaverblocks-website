@@ -1944,7 +1944,15 @@ nav a:not(.nav-call):hover {
   font-style: italic;
 }
 
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
 
+.product-card img:hover {
+  transform: scale(1.05);
+}
 
 
 
