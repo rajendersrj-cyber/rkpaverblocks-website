@@ -1903,5 +1903,38 @@ nav a:not(.nav-call):hover {
   font-style: italic;
 }
 
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-top: 20px;
+}
 
+.product-card {
+  display: block;
+  text-decoration: none;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.product-card img {
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+}
+
+.product-card p {
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+}
 
