@@ -2120,6 +2120,18 @@ align-items:center;
 gap:14px;
 background:#25D366;
 color:white;
+.dealer-whatsapp-btn:visited{
+color:white;
+}
+
+.dealer-whatsapp-btn:hover{
+color:white;
+}
+
+.dealer-whatsapp-btn:active{
+color:white;
+}
+  
 padding:18px 38px;
 border-radius:60px;
 font-size:20px;
