@@ -1991,8 +1991,9 @@ margin-bottom:50px;
 
 .dealer-products-grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:30px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+margin-top:40px;
 }
 
 .dealer-card{
@@ -2009,8 +2010,10 @@ transform:translateY(-10px);
 
 .dealer-card img{
 width:100%;
-height:240px;
+height:220px;
 object-fit:cover;
+border-radius:18px 18px 0 0;
+display:block;
 }
 
 .dealer-card h3{
@@ -2150,4 +2153,25 @@ background:#1ebe5d;
 .dealer-whatsapp-btn img{
 width:32px;
 height:32px;
+}
+
+.dealer-card{
+background:#fff;
+border-radius:18px;
+overflow:hidden;
+box-shadow:0 6px 20px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.dealer-card:hover{
+transform:translateY(-8px);
+box-shadow:0 12px 28px rgba(0,0,0,0.15);
+}
+
+.dealer-card h3{
+padding:22px 16px;
+text-align:center;
+color:#1f3c97;
+font-size:28px;
+line-height:1.5;
 }
