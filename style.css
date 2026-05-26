@@ -2271,3 +2271,22 @@ background:#e56d00;
 transform:translateY(-4px);
 color:#ffffff !important;
 }
+
+.product-btn{
+  display:inline-block;
+  margin-top:15px;
+  padding:10px 18px;
+  background:#c49b63;
+  color:white;
+  text-decoration:none;
+  border-radius:6px;
+  font-weight:600;
+  transition:0.3s;
+}
+
+.product-btn:hover{
+  background:#a67c45;
+}
+
+
+
