@@ -2393,11 +2393,10 @@ color:#ffffff !important;
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 25px;
-  margin-top: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
 }
-
 .product-card {
   display: block;
   text-decoration: none;
