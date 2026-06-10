@@ -188,22 +188,25 @@
 
 <section class="stats">
   <div class="stats-container">
-    <div class="stat-box">
-      <h2>8+</h2>
-      <p>Years of Experience</p>
-    </div>
-    <div class="stat-box">
-      <h2>10+</h2>
-      <p>Locations Served</p>
-    </div>
-    <div class="stat-box">
-      <h2>50+</h2>
-      <p>Projects Completed</p>
-    </div>
-    <div class="stat-box">
-      <h2>100%</h2>
-      <p>Quality Commitment</p>
-    </div>
+   <div class="stat-box">
+  <h2 class="counter" data-target="8">0</h2>
+  <p>Years of Experience</p>
+</div>
+
+<div class="stat-box">
+  <h2 class="counter" data-target="10">0</h2>
+  <p>Locations Served</p>
+</div>
+
+<div class="stat-box">
+  <h2 class="counter" data-target="50">0</h2>
+  <p>Projects Completed</p>
+</div>
+
+<div class="stat-box">
+  <h2 class="counter" data-target="100">0</h2>
+  <p>Quality Commitment</p>
+</div>
   </div>
 </section>
 
@@ -530,7 +533,52 @@
   document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
 </script>
 
+<script>
+const counters = document.querySelectorAll('.counter');
 
+const counterObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+
+    if(entry.isIntersecting){
+
+      const counter = entry.target;
+      const target = +counter.dataset.target;
+
+      let count = 0;
+
+      const updateCounter = () => {
+
+        const increment = target / 60;
+
+        if(count < target){
+          count += increment;
+          counter.innerText = Math.ceil(count);
+          requestAnimationFrame(updateCounter);
+        } else {
+
+          if(target === 100){
+            counter.innerText = target + "%";
+          } else {
+            counter.innerText = target + "+";
+          }
+
+        }
+
+      };
+
+      updateCounter();
+
+      counterObserver.unobserve(counter);
+
+    }
+
+  });
+});
+
+counters.forEach(counter => {
+  counterObserver.observe(counter);
+});
+</script>
   
 </body>
 </html>
