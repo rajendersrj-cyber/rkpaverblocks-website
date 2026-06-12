@@ -2444,3 +2444,60 @@ color:#ffffff !important;
 
 }
 
+/* WHY CHOOSE SECTION */
+
+.why-grid{
+display:grid;
+grid-template-columns:repeat(5,1fr);
+gap:18px;
+margin-top:25px;
+}
+
+.why-card{
+background:#fff;
+border-radius:14px;
+padding:20px 15px;
+text-align:center;
+box-shadow:0 6px 18px rgba(0,0,0,0.08);
+border-top:4px solid #f97316;
+transition:0.3s;
+}
+
+.why-card:hover{
+transform:translateY(-6px);
+box-shadow:0 12px 28px rgba(0,0,0,0.14);
+}
+
+.why-icon{
+font-size:36px;
+margin-bottom:10px;
+}
+
+.why-card h3{
+margin:0 0 8px 0;
+font-size:18px;
+color:#1e3a8a;
+}
+
+.why-card p{
+margin:0;
+font-size:14px;
+line-height:1.5;
+}
+
+@media(max-width:900px){
+.why-grid{
+grid-template-columns:repeat(2,1fr);
+}
+}
+
+@media(max-width:500px){
+.why-grid{
+grid-template-columns:1fr;
+}
+}
+
+
+
+
+
