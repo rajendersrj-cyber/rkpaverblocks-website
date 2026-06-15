@@ -2656,27 +2656,23 @@ margin-bottom:60px;
 }
 
 .trusted-stat{
-
-text-align:center;
-
+  background:#ffffff;
+  border-radius:14px;
+  padding:24px;
+  text-align:center;
+  box-shadow:0 4px 15px rgba(0,0,0,0.08);
 }
 
 .trusted-stat h3{
-
-color:#f97316;
-
-font-size:42px;
-
-margin-bottom:10px;
-
+  color:#f97316;
+  font-size:2rem;
+  margin-bottom:8px;
 }
 
 .trusted-stat p{
-
-color:#cbd5e1;
-
-font-size:15px;
-
+  color:#23408e;
+  font-weight:600;
+  margin:0;
 }
 
 .trusted-grid{
