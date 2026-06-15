@@ -2619,6 +2619,16 @@ margin-bottom:15px;
 
 }
 
+.trusted-tag::after{
+  content:"";
+  display:block;
+  width:140px;
+  height:3px;
+  background:#f97316;
+  margin-top:10px;
+}
+
+
 .trusted-section h2{
 
 color:white;
@@ -2733,8 +2743,9 @@ font-size:30px;
 /* ============================= */
 
 .trusted-section{
-  background:#0f172a;
-  padding:80px 20px;
+  background:#f5f7fb;
+  padding:70px 20px;
+  border-radius:18px;
 }
 
 .trusted-tag{
@@ -2746,10 +2757,11 @@ font-size:30px;
 }
 
 .trusted-section h2{
-  color:#ffffff;
-  margin-top:12px;
-  margin-bottom:40px;
+  color:#23408e;
+  margin-top:10px;
+  margin-bottom:35px;
   font-size:2rem;
+  line-height:1.3;
 }
 
 .trusted-grid{
@@ -2759,18 +2771,20 @@ font-size:30px;
 }
 
 .trusted-card{
-  background:#1e293b;
-  color:#ffffff;
+  background:#ffffff;
+  color:#23408e;
   padding:18px 22px;
   border-left:4px solid #f97316;
-  border-radius:10px;
-  font-weight:600;
+  border-radius:12px;
+  font-weight:700;
+  font-size:1.05rem;
+  box-shadow:0 4px 15px rgba(0,0,0,0.08);
   transition:all 0.3s ease;
 }
 
 .trusted-card:hover{
   transform:translateY(-4px);
-  background:#273449;
+  box-shadow:0 10px 25px rgba(0,0,0,0.12);
 }
 
 @media(max-width:768px){
