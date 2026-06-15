@@ -2727,3 +2727,59 @@ font-size:30px;
 
 }
 
+
+/* ============================= */
+/* Trusted By Industry Section   */
+/* ============================= */
+
+.trusted-section{
+  background:#0f172a;
+  padding:80px 20px;
+}
+
+.trusted-tag{
+  color:#f97316;
+  font-size:0.85rem;
+  font-weight:700;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+.trusted-section h2{
+  color:#ffffff;
+  margin-top:12px;
+  margin-bottom:40px;
+  font-size:2rem;
+}
+
+.trusted-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;
+}
+
+.trusted-card{
+  background:#1e293b;
+  color:#ffffff;
+  padding:18px 22px;
+  border-left:4px solid #f97316;
+  border-radius:10px;
+  font-weight:600;
+  transition:all 0.3s ease;
+}
+
+.trusted-card:hover{
+  transform:translateY(-4px);
+  background:#273449;
+}
+
+@media(max-width:768px){
+
+  .trusted-grid{
+    grid-template-columns:1fr;
+  }
+
+}
+
+
+
