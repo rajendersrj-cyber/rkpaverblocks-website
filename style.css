@@ -2585,13 +2585,6 @@ grid-template-columns:1fr;
 
 /* TRUSTED CLIENTS SECTION */
 
-.trusted-section{
-
-background:#102542;
-
-padding:90px 20px;
-
-}
 
 .trusted-section .container{
 
@@ -2714,9 +2707,8 @@ font-size:30px;
 /* ============================= */
 
 .trusted-section{
-  background:#f5f7fb;
+  background:#ffffff;
   padding:70px 20px;
-  border-radius:18px;
 }
 
 .trusted-tag{
