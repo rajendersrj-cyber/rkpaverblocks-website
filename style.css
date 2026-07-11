@@ -2728,11 +2728,7 @@ font-size:30px;
   font-weight:700;
 }
 
-.trusted-grid{
-  display:grid;
-  grid-template-columns:repeat(2,1fr);
-  gap:18px;
-}
+
 
 .trusted-card{
   background:#ffffff;
@@ -2751,10 +2747,63 @@ font-size:30px;
   box-shadow:0 10px 25px rgba(0,0,0,0.12);
 }
 
-@media(max-width:768px){
+/* ============================= */
+/* Moving Trusted Clients        */
+/* ============================= */
 
-  .trusted-grid{
-    grid-template-columns:1fr;
+.trusted-slider{
+  overflow:hidden;
+  width:100%;
+  position:relative;
+  margin-top:30px;
+}
+
+.trusted-track{
+
+  display:flex;
+  gap:20px;
+
+  width:max-content;
+
+  animation:scrollClients 35s linear infinite;
+}
+
+.trusted-slider:hover .trusted-track{
+  animation-play-state:paused;
+}
+
+.trusted-card{
+
+  flex:0 0 auto;
+
+  min-width:280px;
+
+  padding:18px 28px;
+
+  background:#ffffff;
+
+  border-left:5px solid #f97316;
+
+  border-radius:12px;
+
+  font-size:1.1rem;
+
+  font-weight:700;
+
+  color:#23408e;
+
+  box-shadow:0 4px 14px rgba(0,0,0,.08);
+
+}
+
+@keyframes scrollClients{
+
+  from{
+    transform:translateX(0);
+  }
+
+  to{
+    transform:translateX(-50%);
   }
 
 }
