@@ -833,7 +833,6 @@
 <!-- =========================================================
      EXISTING SITE REVEAL SCRIPT
 ========================================================== -->
-
 <script>
 
   document
@@ -849,7 +848,7 @@
 
       if (entry.isIntersecting) {
 
-        entry.target.classList.add("active");
+        entry.target.classList.add("show");
 
         observer.unobserve(entry.target);
 
@@ -865,7 +864,6 @@
     .forEach(el => observer.observe(el));
 
 </script>
-
 
 </body>
 
