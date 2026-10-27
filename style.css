@@ -2895,3 +2895,67 @@ font-size:30px;
   font-weight: 600;
 }
 
+
+
+/* =========================================
+   FIX: Keep the homepage trust section visible
+   ========================================= */
+
+.trusted-section,
+.trusted-section.reveal,
+.trusted-section.reveal.show {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  transform: none !important;
+  position: relative;
+  z-index: 1;
+}
+
+.trusted-section .container {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.trusted-section .trusted-tag,
+.trusted-section h2,
+.trusted-section .clients-marquee,
+.trusted-section .clients-track,
+.trusted-section .client-badge {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.trusted-section .clients-marquee {
+  display: block !important;
+  overflow: hidden;
+  width: 100%;
+}
+
+.trusted-section .clients-track {
+  display: flex !important;
+  width: max-content;
+  animation: scrollClients 35s linear infinite;
+}
+
+.trusted-section .client-badge {
+  display: inline-flex !important;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+/* Keep the trust section readable on smaller screens */
+@media (max-width: 768px) {
+  .trusted-section {
+    padding: 32px 16px !important;
+  }
+
+  .trusted-section h2 {
+    font-size: 1.8rem !important;
+    margin-bottom: 24px !important;
+  }
+}
+
+
+
